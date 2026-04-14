@@ -1,0 +1,27 @@
+# Python / MkDocs
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+site/
+.cache/
+
+.env
+.env.local
+venv/
+.venv/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+.env.prod
+whitelist.txt
+
+# Docker
+*.log
+
+.claude/

@@ -1,0 +1,159 @@
+site_name: "John Class Survival Guide"
+site_description: "Survival guide for John Class at Shanghai Jiao Tong University"
+site_author: "John Class"
+site_url: "https://diefish.github.io/john-class-manual/"
+repo_url: "https://github.com/diefish/john-class-manual"
+repo_name: "john-class-manual"
+edit_uri: "edit/main/docs/"
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  font:
+    text: "Noto Sans SC"
+    code: "JetBrains Mono"
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+      separator: '[\s\u200b\-\_]'
+      jieba_dict: null
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org/john-class-manual
+      name: GitHub
+  generator: false
+
+nav:
+  - Home: index.md
+
+  - 日常内容:
+    - 概览: daily/index.md
+    - 校园生活: daily/campus-life.md
+    - 行政事务: daily/administration.md
+    - 实用工具: daily/tools.md
+
+  - 课程攻略:
+    - 概览: courses/index.md
+    - 数理基础:
+      - 数学分析 / 高数: courses/math-analysis.md
+      - 线性代数: courses/linear-algebra.md
+      - 概率论与数理统计: courses/probability.md
+      - 大学物理: courses/physics.md
+    - CS 核心课:
+      - 程序设计基础: courses/programming-basics.md
+      - 数据结构: courses/data-structures.md
+      - 算法: courses/algorithms.md
+      - 计算机组成原理: courses/computer-organization.md
+      - 操作系统: courses/os.md
+
+  - 科研 & 就业:
+    - 概览: career/index.md
+    - CS 科研方向:
+      - 方向总览: career/research-overview.md
+      - AI & 机器学习: career/ai-ml.md
+      - 系统方向: career/systems.md
+      - 计算机视觉: career/cv.md
+      - 自然语言处理: career/nlp.md
+      - 安全方向: career/security.md
+      - 理论计算机: career/theory.md
+      - 进入实验室: career/join-lab.md
+    - 就业 & 实习:
+      - 互联网大厂求职: career/industry-jobs.md
+      - 实习经验: career/internship.md
+      - 非互联网方向: career/non-tech-jobs.md
+    - 深造:
+      - 国内保研: career/postgrad-domestic.md
+      - 出国申请: career/postgrad-abroad.md
+
+  - 关于:
+    - 贡献指南: about/contributing.md

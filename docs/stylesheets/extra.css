@@ -1,0 +1,38 @@
+/* ============================================================
+   John Class Survival Guide — 自定义样式
+   ============================================================ */
+
+/* ── 字体微调 ─────────────────────────────────────────────── */
+:root {
+  --md-text-font: "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
+  --md-code-font: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* ── 代码块：行号颜色优化 ─────────────────────────────────── */
+.md-typeset .highlight .linenos {
+  color: var(--md-default-fg-color--light);
+  user-select: none;
+}
+
+/* ── Admonition 图标微调（可选）──────────────────────────── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+}
+
+/* ── MathJax 块级公式居中 ─────────────────────────────────── */
+.arithmatex {
+  overflow-x: auto;
+  padding: 0.5em 0;
+}
+
+/* ── 首页 Hero 区域（可选增强）──────────────────────────────*/
+.md-typeset .hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* ── 暗色模式下表格斑马纹 ─────────────────────────────────── */
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
