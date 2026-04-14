@@ -125,16 +125,26 @@ nav:
   - 课程攻略:
     - 概览: courses/index.md
     - 数理基础:
-      - 数学分析 / 高数: courses/math-analysis.md
-      - 线性代数: courses/linear-algebra.md
-      - 概率论与数理统计: courses/probability.md
-      - 大学物理: courses/physics.md
-    - CS 核心课:
-      - 程序设计基础: courses/programming-basics.md
-      - 数据结构: courses/data-structures.md
+      - 数学分析（荣誉）: courses/math-analysis.md
+      - 物理学引论（荣誉）: courses/physics.md
+      - 物理学实验: courses/physics-lab.md
+      - 线性代数（荣誉）: courses/linear-algebra.md
+      - 概率论: courses/probability.md
+    - CS 必修:
+      - 程序设计与数据结构: courses/programming-ds.md
       - 算法: courses/algorithms.md
-      - 计算机组成原理: courses/computer-organization.md
+      - 数理逻辑: courses/logic.md
+      - 组合数学: courses/combinatorics.md
+      - 程序语言设计与实现: courses/pl-design.md
+      - 计算机系统: courses/computer-systems.md
       - 操作系统: courses/os.md
+      - 算法设计与分析: courses/algorithm-design.md
+      - 近世代数: courses/abstract-algebra.md
+      - 计算复杂性: courses/complexity.md
+      - 数据库系统: courses/database.md
+    - 选修:
+      - 最优化方法: courses/optimization.md
+      - 机器学习: courses/ml-intro.md
 
   - 科研 & 就业:
     - 概览: career/index.md
