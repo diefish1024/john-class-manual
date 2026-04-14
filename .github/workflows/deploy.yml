@@ -29,7 +29,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install mkdocs-material jieba mkdocs-minify-plugin
+        run: pip install -r requirements.txt
 
       - uses: actions/configure-pages@v5
 
