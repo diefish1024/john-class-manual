@@ -2,7 +2,7 @@
 
 > Survival guide for John Class at Shanghai Jiao Tong University, maintained by students.
 
-[![Build & Deploy](https://github.com/diefish/john-class-manual/actions/workflows/deploy.yml/badge.svg)](https://github.com/diefish/john-class-manual/actions/workflows/deploy.yml)
+[![Build & Deploy](https://github.com/diefish1024/john-class-manual/actions/workflows/deploy.yml/badge.svg)](https://github.com/diefish1024/john-class-manual/actions/workflows/deploy.yml)
 
 ---
 
