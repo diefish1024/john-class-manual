@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -32,8 +32,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Build site
         run: mkdocs build --strict
