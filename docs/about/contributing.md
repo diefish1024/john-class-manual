@@ -85,7 +85,9 @@ mkdocs serve
 !!! note
     我是一份基于 MkDocs Material 框架文档的内容贡献者。请将以下 Markdown 草稿转换为带有 Material 专属语法的格式。要求如下：
     1. 将草稿中的提示、警告、注意等情绪块，转换为对应的 Admonitions 语法，如 `!!! tip`, `!!! warning`，并注意内部文本的正确缩进。
+    
     2. 若草稿中存在分类对比，请转换为 Content Tabs 语法，如 `===` 标签。
+    
     3. 仅调整语法格式，绝对不要修改我原稿中的主观评价与客观信息。 
 
 ---
