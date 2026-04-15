@@ -116,13 +116,24 @@ extra:
 nav:
   - Home: index.md
 
+  - 开篇寄语:
+    - 寄语与版权: preface/index.md
+
+  - 基本知识:
+    - 概览: basics/index.md
+    - 班级介绍: basics/class-intro.md
+    - 提问的智慧: basics/how-to-ask.md
+
   - 日常内容:
     - 概览: daily/index.md
     - 校园生活: daily/campus-life.md
     - 行政事务: daily/administration.md
+    - 网站与资源: daily/websites.md
+    - AI 与生产力工具: daily/ai-tools.md
+    - 自习空间: daily/study-spaces.md
     - 实用工具: daily/tools.md
 
-  - 课程攻略:
+  - 课内课程:
     - 概览: courses/index.md
     - 数理基础:
       - 数学分析（荣誉）: courses/math-analysis.md
@@ -148,22 +159,35 @@ nav:
 
   - 科研 & 就业:
     - 概览: career/index.md
-    - CS 科研方向:
-      - 方向总览: career/research-overview.md
-      - AI & 机器学习: career/ai-ml.md
-      - 系统方向: career/systems.md
-      - 计算机视觉: career/cv.md
-      - 自然语言处理: career/nlp.md
-      - 安全方向: career/security.md
-      - 理论计算机: career/theory.md
+    - 常见 Timeline: career/timeline.md
+    - 科研:
+      - 科研起步: career/research-start.md
+      - 科研方向:
+        - 方向总览: career/research-overview.md
+        - AI & 机器学习: career/ai-ml.md
+        - 系统方向: career/systems.md
+        - 计算机视觉: career/cv.md
+        - 自然语言处理: career/nlp.md
+        - 安全方向: career/security.md
+        - 理论计算机: career/theory.md
       - 进入实验室: career/join-lab.md
-    - 就业 & 实习:
-      - 互联网大厂求职: career/industry-jobs.md
-      - 实习经验: career/internship.md
-      - 非互联网方向: career/non-tech-jobs.md
+    - 就业:
+      - 就业规划: career/job-planning.md
+      - 就业方向:
+        - 互联网大厂: career/industry-jobs.md
+        - Startup: career/startup.md
+        - 量化: career/quant.md
     - 深造:
-      - 国内保研: career/postgrad-domestic.md
+      - 国内直博: career/postgrad-domestic.md
       - 出国申请: career/postgrad-abroad.md
+
+  - Misc:
+    - 概览: misc/index.md
+    - 竞赛体系: misc/competitions.md
+    - 素拓、综评与奖学金: misc/awards.md
+    - 博客与个人主页: misc/personal-site.md
 
   - 关于:
     - 贡献指南: about/contributing.md
+    - 结语与致谢: acknowledgement/index.md
+    - 编写组: acknowledgement/contributors.md

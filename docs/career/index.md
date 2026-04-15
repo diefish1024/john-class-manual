@@ -1,29 +1,24 @@
 # 科研 & 就业
 
-本章面向有意深入发展的同学，介绍 CS 各科研方向、实习求职路径与深造选择。
+!!! note
+    由于编写组本身的经验不足，本章不在大方向上提供过多论断，主要着眼于资料分享与细节上的经验分享。
 
 ---
 
 ## 本章目录
 
-### CS 科研方向
+### 总览
+- [常见 Timeline](timeline.md) — 直博 / 出国 / 就业的时间规划
 
-- [方向总览](research-overview.md) — 交大 CS 各课题组与方向简介
-- [人工智能 & 机器学习](ai-ml.md)
-- [系统方向（OS / 体系结构 / 分布式）](systems.md)
-- [计算机视觉](cv.md)
-- [自然语言处理](nlp.md)
-- [安全方向](security.md)
-- [理论计算机科学](theory.md)
-- [进入实验室 & 联系导师](join-lab.md)
+### 科研
+- [科研起步](research-start.md) — 寻找导师、学科前沿、进组建议
+- 科研方向：[方向总览](research-overview.md) · [AI & ML](ai-ml.md) · [系统](systems.md) · [CV](cv.md) · [NLP](nlp.md) · [安全](security.md) · [理论](theory.md)
+- [进入实验室](join-lab.md)
 
-### 就业 & 实习
-
-- [互联网大厂求职指南](industry-jobs.md) — 简历、笔试、算法面试
-- [实习经验分享](internship.md) — 何时投、怎么找、注意事项
-- [非互联网方向](non-tech-jobs.md) — 金融、咨询、公务员等
+### 就业
+- [就业规划](job-planning.md) — 本科就业的现实情况与路径规划
+- 就业方向：[互联网大厂](industry-jobs.md) · [Startup](startup.md) · [量化](quant.md)
 
 ### 深造
-
-- [国内保研](postgrad-domestic.md) — 保研流程、夏令营攻略
-- [出国申请](postgrad-abroad.md) — 选校、文书、时间线
+- [国内直博](postgrad-domestic.md)
+- [出国申请](postgrad-abroad.md)
