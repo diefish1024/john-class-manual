@@ -1,6 +1,6 @@
 # 致谢
 
-感谢所有为 John Class Survival Guide 贡献内容的同学。
+感谢所有为 John Class Manual 贡献内容的同学。
 
 本指南参考了以下优秀的开源文档项目：
 
