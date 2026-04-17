@@ -7,6 +7,5 @@
 - [SurviveSJTUManual](https://survivesjtu.gitbook.io/survivesjtumanual)
 - [ZJU-Turing TuringCourses](https://zju-turing.github.io/TuringCourses/)
 - [清华大学计算机系课程攻略](https://rekcarc-tsc-uht.readthedocs.io/en/latest/README.html)
-- 《知行》安泰新生入学手册
 
 非常感谢写作这些项目的同学与前辈！
