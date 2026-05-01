@@ -152,7 +152,6 @@ nav:
       - 程序语言设计与实现: courses/cs-core/pl-design.md
       - 计算机系统: courses/cs-core/computer-systems.md
       - 操作系统: courses/cs-core/os.md
-      - 算法设计与分析: courses/cs-core/algorithm-design.md
       - 近世代数: courses/cs-core/abstract-algebra.md
       - 计算复杂性: courses/cs-core/complexity.md
       - 数据库系统: courses/cs-core/database.md
